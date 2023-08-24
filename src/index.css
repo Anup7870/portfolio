@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600&family=Raleway:wght@100;200;300;400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root,
+#docs-root {
+  --light: #F2F5F9;
+  --main-light: #FF9C1A;
+  --main-color:#EC1B09;
+  --logo-font: 'Dancing Script', cursive;
+  --heading-subtitles:"poppins", Noto Sans, sans-serif;
+  --body:"raleway", Noto Sans, sans-serif;
+  --light-2:#EBF2FA;
+  --but:#E1E8FF;
+  --grad: linear-gradient(294deg, rgba(232,5,5,1) 39%, rgba(255,156,26,1) 83%); 
+  --line:#bebebe;
+}
+.grad{
+  background: linear-gradient(94deg, rgba(255,156,26,1) 0%, rgba(232,5,5,1) 86%) !important; 
+  color: white;
+  
+}
+nav{
+  border-radius: 1px solid #e4e4e4;
+}
