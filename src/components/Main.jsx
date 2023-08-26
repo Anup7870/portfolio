@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home.jsx";
 import Resume from "./Resume.jsx";
-import Work from "./Work.jsx";
+import Work from "./work";
 import Contact from "./Contact.jsx";
 export default function Main() {
   return (
