@@ -1,4 +1,4 @@
-import Context from "./Context.js";
+import Context from "./Context";
 import {useState} from "react";
 
 
