@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <GlobalState>
-      <div className='container h-screen bg-light w-screen   overflow-x-scroll'>
+      <div className='h-screen bg-light w-screen   overflow-x-scroll'>
         <div className='px-8 pt-5 h-full'>
           <header className='flex justify-between h-14 items-center'>
             <p className='font-logo font-bold text-4xl'>
