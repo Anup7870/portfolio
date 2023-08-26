@@ -4,7 +4,7 @@ import { LuFileSpreadsheet } from "react-icons/lu";
 import { MdWorkOutline } from "react-icons/md";
 import { BiSolidContact } from "react-icons/bi";
 import { useContext } from "react";
-import Context from "../context/Context.js";
+import Context from "../context/context.js";
 import { Link } from "react-router-dom";
 export default function Main() {
   let navState = useContext(Context);
