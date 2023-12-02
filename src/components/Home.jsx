@@ -4,7 +4,7 @@ import { FaChalkboardTeacher } from "react-icons/fa";
 export default function home() {
   return (
     <>
-      <div className='bg-white px-20 h-[40.438rem] rounded-2xl'>
+      <div className='bg-white px-20 h-[40.438rem] rounded-2xl overflow-auto'>
         <div className='w-[80%]  flex justify-between items-center gap-9 pt-6'>
           <h1 className='text-4xl font-medium text-black'>ABOUT ME</h1>
           <div className='h-[.1rem] w-2/4 bg-main-light'></div>

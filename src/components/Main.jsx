@@ -8,8 +8,8 @@ import Contact from "./Contact.jsx";
 export default function Main() {
   return (
     <>
-      <main className='w-3/4  h-full'>
-        <div className='w-full h-2/6 items-center flex justify-end'>
+      <main className='w-full lg:w-3/4 md:w-screen h-full'>
+        <div className='w-full h-2/6 items-center lg:flex lg:justify-end'>
           <Navbar />
         </div>
         <div className='container mt-12  m-auto '>

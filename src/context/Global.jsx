@@ -1,10 +1,12 @@
 import Context from "./context";
 import {useState} from "react";
-
+ 
 
 const GlobalState =(props)=>{
+  const width = window.innerWidth;
   const globalData = {
-   "NavFilter":1
+   "NavFilter":1,
+   "width":width
   }
   const [global,SetGlobal] = useState(globalData)
   return(

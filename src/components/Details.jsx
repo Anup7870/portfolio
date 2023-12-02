@@ -6,7 +6,11 @@ import { CiLocationOn } from "react-icons/ci";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Resume from "./Resume.pdf";
+import { useContext } from "react";
+import Context from "../context/context";
 export default function Details() {
+  const data = useContext(Context)
+
   return (
     <div className='w-full bg-light-2 mt-10 rounded-2xl'>
       <div className='px-3 w-full'>
@@ -27,7 +31,7 @@ export default function Details() {
               <p className='font-semibold text-sm text-gray-600 opacity-80'>
                 Email
               </p>
-              <p className='font-semibold text-sm'>
+              <p className='font-semibold text-sm text-ellipsis'>
                 anupkumar7870337110@gmail.com
               </p>
             </span>
